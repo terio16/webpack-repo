@@ -1,6 +1,11 @@
 .btn {
-    border: 1px solid $mainGreen;
-    padding: 1.25rem 1rem;
-    display: inline-block;
-    border-radius: 5px;
+  padding: 1.25rem 1rem;
+  display: inline-block;
+  border-radius: 5px;
+  color: $mainGreen;
+
+  &--primary {
+    background-color: $mainGreen;
+    color: #fff;
+  }
 }
