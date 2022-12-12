@@ -5,4 +5,8 @@
     &--padded {
       padding: 1.25rem;
     }
+
+    &--wide {
+      width: 90%;
+    }
   }
