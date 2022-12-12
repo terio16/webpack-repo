@@ -1,4 +1,6 @@
 .header {
+  display: flex;
+
   &__logo {
     transform: scale(0.65);
   }
@@ -7,9 +9,16 @@
     float: right;
     color: $mainBlue;
 
+    & ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
     & li {
       display: inline-block;
       margin-right: 1.5em;
+      list-style: none;
     }
   }
   &__user-links {
