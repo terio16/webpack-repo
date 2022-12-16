@@ -1,8 +1,4 @@
 .header {
-<<<<<<< Updated upstream
-  &__logo {
-    transform: scale(0.65);
-=======
   color: $mainBlue;
 
   &__container {
@@ -71,7 +67,6 @@
     @mixin atLaptop {
       transform: scale(0.7);
     }
->>>>>>> Stashed changes
   }
 
   &__mobile-nav-toggle:checked ~ &__nav {
@@ -85,14 +80,6 @@
   }
 
   &__nav {
-<<<<<<< Updated upstream
-    float: right;
-    color: $mainBlue;
-
-    & li {
-      display: inline-block;
-      margin-right: 1.5em;
-=======
     position: absolute;
     top: 0;
     right: 0;
@@ -151,16 +138,10 @@
         margin-right: 1em;
         text-align: center;
       }
->>>>>>> Stashed changes
     }
   }
-  &__user-links {
-<<<<<<< Updated upstream
-    float: right;
 
-    & > a:first-of-type {
-      margin-right: 1rem;
-=======
+  &__user-links {
     padding: 0.75em;
     border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 
@@ -171,7 +152,6 @@
 
     & > a:first-of-type {
       margin-right: 0.75rem;
->>>>>>> Stashed changes
     }
   }
 }
