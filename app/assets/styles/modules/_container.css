@@ -1,7 +1,15 @@
 .container {
+<<<<<<< Updated upstream
+=======
+  width: 100%;
+
+  @mixin atLaptop {
+>>>>>>> Stashed changes
     width: 85%;
     margin: auto;
+  }
 
+<<<<<<< Updated upstream
     &--padded {
       padding: 1.25rem;
     }
@@ -10,3 +18,13 @@
       width: 90%;
     }
   }
+=======
+  &--padded {
+    padding: 1rem;
+  }
+
+  &--p-bottom {
+    padding-bottom: 2.5rem;
+  }
+}
+>>>>>>> Stashed changes

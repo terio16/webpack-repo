@@ -4,4 +4,12 @@
 @import "./modules/_container";
 @import "./modules/_header";
 @import "./modules/_btn";
+<<<<<<< Updated upstream
 @import "./modules/_hero";
+=======
+@import "./modules/_hero";
+@import "./modules/_organizations";
+@import "./modules/_section-heading";
+@import "./modules/_skills";
+@import "./modules/_footer";
+>>>>>>> Stashed changes

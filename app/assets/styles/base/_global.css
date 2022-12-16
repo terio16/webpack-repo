@@ -9,3 +9,16 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
+<<<<<<< Updated upstream
+=======
+
+ul {
+  list-style-position: inside !important;
+  list-style-type: none !important;
+  padding-left: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+>>>>>>> Stashed changes
